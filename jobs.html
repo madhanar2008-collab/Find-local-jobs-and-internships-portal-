@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Local Job & Internship Portal - Jobs</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="logo">JobConnect</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="jobs.html">Jobs</a>
+      <a href="internships.html">Internships</a>
+      <a href="apply.html">Apply</a>
+      <a href="dashboard.html">Dashboard</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <h2>Local Jobs</h2>
+    <input type="text" id="searchInput" placeholder="Search by skill or role..." onkeyup="filterCards()" />
+    <div class="cards" id="jobCards">
+      <div class="card job-card">
+        <h3>Junior Web Developer</h3>
+        <p>Location: Chennai</p>
+        <p>Skills: HTML, CSS, JavaScript</p>
+      </div>
+      <div class="card job-card">
+        <h3>Data Entry Operator</h3>
+        <p>Location: Tambaram</p>
+        <p>Skills: Typing, MS Office</p>
+      </div>
+      <div class="card job-card">
+        <h3>Technical Support Assistant</h3>
+        <p>Location: Velachery</p>
+        <p>Skills: Communication, Basic IT</p>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
