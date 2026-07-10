@@ -23,3 +23,5 @@ dashboard.html shows saved jobs and applied status.
 styles.css handles design.
 script.js handles search, filters, and simple form actions.
 README.md explains the project.
+https://local-job-board--madhanar2008.replit.app
+
