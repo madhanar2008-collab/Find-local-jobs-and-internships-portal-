@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Local Job & Internship Portal - Apply</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="logo">JobConnect</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="jobs.html">Jobs</a>
+      <a href="internships.html">Internships</a>
+      <a href="apply.html">Apply</a>
+      <a href="dashboard.html">Dashboard</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <h2>Application Form</h2>
+    <form class="card form-box" onsubmit="submitApplication(event)">
+      <input type="text" placeholder="Full Name" required />
+      <input type="email" placeholder="Email" required />
+      <input type="text" placeholder="Skill / Role" required />
+      <textarea placeholder="Short message" rows="5" required></textarea>
+      <button type="submit" class="btn">Submit Application</button>
+      <p id="applyMsg"></p>
+    </form>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
